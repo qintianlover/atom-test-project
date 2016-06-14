@@ -13,3 +13,8 @@ Sync user init script
 Sync snippets
 Sync user defined text files
 Manual backup/restore to a gist
+
+获取安装方式
+
+命令行安装: $ apm install sync-settings
+设置中心: 搜索sync-settings
