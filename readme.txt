@@ -1,7 +1,7 @@
 1111111111111111111
-atom ÎÊÌâÊÕ¼¯
-¹¦ÄÜÃèÊö:Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.
-(¼òÑÔÖ®¾ÍÊÇ¿ÉÒÔÍ¬²½AtomµÄÉèÖÃÎÄ¼ş,×Ô¶¨Òå¿ì½İ¼ü,ÓÃ»§·ç¸ñ,³õÊ¼»¯½Å±¾¼°´úÂëÆ¬¶Î,»¹Ö§³ÖÒÑ°²×°µÄ²å¼şÍ¬²½)
+atom é—®é¢˜æ”¶é›†
+åŠŸèƒ½æè¿°:Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.
+(ç®€è¨€ä¹‹å°±æ˜¯å¯ä»¥åŒæ­¥Atomçš„è®¾ç½®æ–‡ä»¶,è‡ªå®šä¹‰å¿«æ·é”®,ç”¨æˆ·é£æ ¼,åˆå§‹åŒ–è„šæœ¬åŠä»£ç ç‰‡æ®µ,è¿˜æ”¯æŒå·²å®‰è£…çš„æ’ä»¶åŒæ­¥)
 
 Features
 
@@ -14,25 +14,25 @@ Sync snippets
 Sync user defined text files
 Manual backup/restore to a gist
 
-»ñÈ¡°²×°·½Ê½
+è·å–å®‰è£…æ–¹å¼
 
-ÃüÁîĞĞ°²×°: $ apm install sync-settings
-ÉèÖÃÖĞĞÄ: ËÑË÷sync-settings
+å‘½ä»¤è¡Œå®‰è£…: $ apm install sync-settings
+è®¾ç½®ä¸­å¿ƒ: æœç´¢sync-settings
 
-ÉèÖÃ¼°Ê¹ÓÃ·½·¨
+è®¾ç½®åŠä½¿ç”¨æ–¹æ³•
 
-³õÊ¼»¯ÉèÖÃ
+åˆå§‹åŒ–è®¾ç½®
 
-½øÈëÉèÖÃÖĞĞÄÕÒµ½¸Ã²å¼ş,½øÈ¥setting
-´ò¿ª×Ô¼ºµÄgithub´´½¨Ò»¸öpersonal access token ¨C È»ºó¸´ÖÆÉú³ÉµÄtokenĞòÁĞ,Õ³Ìùµ½²å¼şµÄsettingÀïÃæµÄ(×îºóÔÙ·ÅÍ¼,Ò»Ä¿ÁËÈ»)
-ÔÙ´ò¿ªgithubµÄgist·şÎñ,´´½¨Ò»¸ögist¨C¸´ÖÆÉú³ÉgistID,Ò²Õ³Ìùµ½¶ş²½ÉèÖÃÀïÃæ
+è¿›å…¥è®¾ç½®ä¸­å¿ƒæ‰¾åˆ°è¯¥æ’ä»¶,è¿›å»setting
+æ‰“å¼€è‡ªå·±çš„githubåˆ›å»ºä¸€ä¸ªpersonal access token â€“ ç„¶åå¤åˆ¶ç”Ÿæˆçš„tokenåºåˆ—,ç²˜è´´åˆ°æ’ä»¶çš„settingé‡Œé¢çš„(æœ€åå†æ”¾å›¾,ä¸€ç›®äº†ç„¶)
+å†æ‰“å¼€githubçš„gistæœåŠ¡,åˆ›å»ºä¸€ä¸ªgistâ€“å¤åˆ¶ç”ŸæˆgistID,ä¹Ÿç²˜è´´åˆ°äºŒæ­¥è®¾ç½®é‡Œé¢
 
-Ê¹ÓÃ·½·¨(ÅäÖÃÍê±Ïºó)
+ä½¿ç”¨æ–¹æ³•(é…ç½®å®Œæ¯•å)
 
-ÔÚÎÄµµ±à¼­Ò³Ãæ,°´ÏÂÈ«¾ÖÃüÁîËÑË÷Ãæ°å(Ctrl+shift+p)
-ËÑË÷sync- ,»áÓĞ¿ÉÑ¡Ïî 
-sync-settings:backup ¨C ÕâÌõÃüÁîÊÇ±¸·İµ±Ç°µÄÅäÖÃ
-sync-settings:restore ¨C ÕâÌõÃüÁîÊÇ»Ø¸´ÅäÖÃ,ÊÇÖ±½Ó¸²¸ÇµÄ;
-sync-settings:view-backup ¨C ÕâÌõÊÇµ±ÄãÖ´ĞĞ±¸·İºóµ½ÏßÉÏ²éÑ¯ÄãµÄ±¸·İµÄ,Ò²¾ÍÊÇµ½ÄãµÄgist codeÀïÃæ
-sync-settings:check-backup ¨C ÕâÌõÊÇ²éÑ¯×îºóÒ»´ÎÊÇ·ñÕı³£
-±¸·İ³É¹¦ºÍÊ§°Ü¶¼ÓĞÒ»ÌõĞÅÏ¢ÌáĞÑ,¿´Í¼
+åœ¨æ–‡æ¡£ç¼–è¾‘é¡µé¢,æŒ‰ä¸‹å…¨å±€å‘½ä»¤æœç´¢é¢æ¿(Ctrl+shift+p)
+æœç´¢sync- ,ä¼šæœ‰å¯é€‰é¡¹ 
+sync-settings:backup â€“ è¿™æ¡å‘½ä»¤æ˜¯å¤‡ä»½å½“å‰çš„é…ç½®
+sync-settings:restore â€“ è¿™æ¡å‘½ä»¤æ˜¯å›å¤é…ç½®,æ˜¯ç›´æ¥è¦†ç›–çš„;
+sync-settings:view-backup â€“ è¿™æ¡æ˜¯å½“ä½ æ‰§è¡Œå¤‡ä»½ååˆ°çº¿ä¸ŠæŸ¥è¯¢ä½ çš„å¤‡ä»½çš„,ä¹Ÿå°±æ˜¯åˆ°ä½ çš„gist codeé‡Œé¢
+sync-settings:check-backup â€“ è¿™æ¡æ˜¯æŸ¥è¯¢æœ€åä¸€æ¬¡æ˜¯å¦æ­£å¸¸
+å¤‡ä»½æˆåŠŸå’Œå¤±è´¥éƒ½æœ‰ä¸€æ¡ä¿¡æ¯æé†’,çœ‹å›¾
