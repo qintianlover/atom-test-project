@@ -36,3 +36,5 @@ sync-settings:restore – 这条命令是回复配置,是直接覆盖的;
 sync-settings:view-backup – 这条是当你执行备份后到线上查询你的备份的,也就是到你的gist code里面
 sync-settings:check-backup – 这条是查询最后一次是否正常
 备份成功和失败都有一条信息提醒,看图
+
+最后明白一次是否系需要添加文本文件
