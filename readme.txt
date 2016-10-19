@@ -1,4 +1,3 @@
-1111111111111111111
 atom 问题收集
 功能描述:Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.
 (简言之就是可以同步Atom的设置文件,自定义快捷键,用户风格,初始化脚本及代码片段,还支持已安装的插件同步)
@@ -30,7 +29,7 @@ Manual backup/restore to a gist
 使用方法(配置完毕后)
 
 在文档编辑页面,按下全局命令搜索面板(Ctrl+shift+p)
-搜索sync- ,会有可选项 
+搜索sync- ,会有可选项
 sync-settings:backup – 这条命令是备份当前的配置
 sync-settings:restore – 这条命令是回复配置,是直接覆盖的;
 sync-settings:view-backup – 这条是当你执行备份后到线上查询你的备份的,也就是到你的gist code里面
